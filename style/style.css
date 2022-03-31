@@ -172,3 +172,44 @@ body{
     border-radius:20px;
 }
 /*Right half webpage's designing ends here*/
+/*Responsive design starts here*/
+@media only screen and (max-width:1000px){
+    .parent-wrapper{
+        flex-direction:column;
+    }
+    .parent-wrapper .child-wrapper-one,
+    .parent-wrapper .child-wrapper-two{
+        width:100%;
+    }
+    .parent-wrapper .child-wrapper-one .selectors{
+        margin-top:3%;
+    }
+    .parent-wrapper .child-wrapper-one .main-logo{
+        width:90%;
+        padding:13%;
+    }
+    .parent-wrapper .child-wrapper-one .footer-left{
+        flex-direction:column;
+    }
+    .parent-wrapper .child-wrapper-one .footer-left #alarm-butn{
+        width:55%;
+        margin-bottom:3%;
+    }
+    .parent-wrapper .child-wrapper-one .footer-left .set-alarm{
+        width:100%;
+    }
+    .parent-wrapper .child-wrapper-two .boxes-wrapper{
+        font-size:10px;
+    }
+    .parent-wrapper .child-wrapper-two .boxes-wrapper .box1{
+        font-size:13px;
+    }
+    .parent-wrapper .child-wrapper-two .back-boxes1,
+    .parent-wrapper .child-wrapper-two  .back-boxes2{
+        display:none;
+    }
+    .parent-wrapper .child-wrapper-two .message-time{
+        margin-top:7%;
+    }
+}
+/*Responsive design ends here*/
